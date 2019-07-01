@@ -124,9 +124,9 @@
   "icons": {
 
     "ColorPalette": {
-      "#878787": "#ababab",
-      "#4D89C9": "#4F9EE3",
-      "#4982CC": "#4B97D9"
+      "Checkbox.Border.Default": "#b0b0b0",
+      "Checkbox.Background.Selected": "#4F9EE3",
+      "Checkbox.Border.Selected": "#4B97D9"
     }
   }
 }
