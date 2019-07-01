@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.jetbrains.lightThemePreview</id>
+  <name>IntelliJ Light Theme</name>
+  <version>1.0</version>
+  <vendor email="olga.berdnikova@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor>
+
+  <description><![CDATA[
+    This is a new light theme for all IntelliJ IDEs. It is going to be the default one since v2019.3.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="192.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="9ce043e6-f2db-4cea-bc5a-0d2401653164" path="/Light.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
