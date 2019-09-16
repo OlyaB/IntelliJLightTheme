@@ -1,11 +1,30 @@
 <idea-plugin>
   <id>com.jetbrains.lightThemePreview</id>
   <name>IntelliJ Light Theme</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="olga.berdnikova@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor>
 
   <description><![CDATA[
-    This is a new light theme for all IntelliJ IDEs. It is going to be the default one since v2019.3.
+IntelliJ Light is a new light theme for IntelliJ-based IDEs starting 2019.3. This plugin is a preview of this theme and can be used with versions 2019.1 and 2019.2.
+<br/><br/>
+The new light theme features two notable changes:
+<ul>
+<li>A cleaner editor scheme with regular font styles instead of bolds</li>
+<li>A unified theme for Windows, macOS and Linux</li>
+</ul>
+The goal of these changes is to make working with the code easier and to provide better UI support on all platforms.
+<br/><br/>
+Note that the current light themes for Windows and macOS that mimic the OS look will still be available after the new theme is introduced.
+<br/><br/>
+Please <a href="https://youtrack.jetbrains.com/issues?q=project:%20%7BIntelliJ%20IDEA%7D">share your feedback in YouTrack</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://youtrack.jetbrains.com/tag/IntelliJ%20LaF-153736?q=project:%20%7BIntelliJ%20IDEA%7D">Known issues</a>
+<br/><br/><br/>
+
+To install:
+<ol>
+<li>Go to <b>Settings | Plugins</b>, find the theme plugin and install it</li>
+<li>Restart the IDE</li>
+<li>Go to <b>Settings | Appearance & Behavior | Appearance</b> and select <b>IntelliJ Light Preview</b> in the Theme dropdown</li>
+</ol>
     ]]></description>
 
   <change-notes><![CDATA[
@@ -13,13 +32,13 @@
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="191.0" until-build="201.0"/>
+  <idea-version since-build="191.0" until-build="193"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <!-- uncomment to enable plugin in all products
+
   <depends>com.intellij.modules.lang</depends>
-  -->
+
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
