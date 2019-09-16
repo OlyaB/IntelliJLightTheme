@@ -5,7 +5,7 @@
   <vendor email="olga.berdnikova@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor>
 
   <description><![CDATA[
-IntelliJ Light is a new light theme for IntelliJ-based IDEs starting 2019.3. This plugin is a preview of this theme and can be used with versions 2019.1 and 2019.2.
+IntelliJ Light is a new light theme for IntelliJ-based IDEs starting 2020.1. This plugin is a preview of this theme and can be used with versions 2019.1–3.
 <br/><br/>
 The new light theme features two notable changes:
 <ul>
@@ -32,7 +32,7 @@ To install:
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="191.0" until-build="193"/>
+  <idea-version since-build="191.0" until-build="201"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
