@@ -11,6 +11,7 @@
     <option name="GUTTER_BACKGROUND" value="f2f2f2" />
     <option name="LINE_NUMBERS_COLOR" value="adadad" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
+    <option name="GUTTER_BACKGROUND" value="f2f2f2" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
