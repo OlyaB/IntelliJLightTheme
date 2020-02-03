@@ -11,7 +11,6 @@
     <option name="GUTTER_BACKGROUND" value="f2f2f2" />
     <option name="LINE_NUMBERS_COLOR" value="adadad" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
-    <option name="GUTTER_BACKGROUND" value="f2f2f2" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -344,11 +343,6 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ed0000" />
-      </value>
-    </option>
-    <option name="YAML_ANCHOR">
-      <value>
-        <option name="FOREGROUND" value="e6" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">
