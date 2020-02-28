@@ -8,11 +8,11 @@
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="fcfaed" />
-    <option name="GUTTER_BACKGROUND" value="f2f2f2" />
     <option name="LINE_NUMBERS_COLOR" value="adadad" />
     <option name="SELECTION_BACKGROUND" value="b9d7fb" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
+    <option name="GUTTER_BACKGROUND" value="f2f2f2" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -294,7 +294,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d6d3d0" />
+        <option name="BACKGROUND" value="99ccff" />
       </value>
     </option>
     <option name="PROPERTIES.KEY">
@@ -352,6 +352,11 @@
         <option name="FOREGROUND" value="ed0000" />
       </value>
     </option>
+    <option name="YAML_ANCHOR">
+      <value>
+        <option name="FOREGROUND" value="e6" />
+      </value>
+    </option>
     <option name="XPATH.FUNCTION">
       <value>
         <option name="FOREGROUND" value="174ad4" />
@@ -360,6 +365,11 @@
     <option name="XPATH.XPATH_NAME">
       <value>
         <option name="FOREGROUND" value="2fa6" />
+      </value>
+    </option>
+    <option name="XPATH.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="174ad4" />
       </value>
     </option>
   </attributes>
