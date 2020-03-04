@@ -185,22 +185,22 @@
     </option>
     <option name="GO_BUILTIN_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="2fa6" />
+        <option name="FOREGROUND" value="2fa6" deuteranopia="428C" protanopia="428C"/>
       </value>
     </option>
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="2fa6" />
+        <option name="FOREGROUND" value="2fa6" deuteranopia="428C" protanopia="428C"/>
       </value>
     </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="2fa6" />
+        <option name="FOREGROUND" value="2fa6" deuteranopia="428C" protanopia="428C"/>
       </value>
     </option>
     <option name="GO_BUILTIN_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="2fa6" />
+        <option name="FOREGROUND" value="2fa6" deuteranopia="428C" protanopia="428C"/>
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION">
@@ -215,7 +215,7 @@
     </option>
     <option name="GO_LOCAL_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="80118c" />
+        <option name="FOREGROUND" value="80118c" deuteranopia="4B9F" protanopia="4B9F"/>
       </value>
     </option>
     <option name="GO_LOCAL_FUNCTION">
@@ -240,12 +240,12 @@
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="80118c" />
+        <option name="FOREGROUND" value="80118c" deuteranopia="4B9F" protanopia="4B9F"/>
       </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="80118c" />
+        <option name="FOREGROUND" value="80118c" deuteranopia="4B9F" protanopia="4B9F"/>
       </value>
     </option>
     <option name="GO_TYPE_REFERENCE">
@@ -367,17 +367,17 @@
     </option>
     <option name="XPATH.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="174ad4" />
+        <option name="FOREGROUND" value="174ad4" deuteranopia="121314" protanopia="121314"/>
       </value>
     </option>
     <option name="XPATH.XPATH_NAME">
       <value>
-        <option name="FOREGROUND" value="2fa6" />
+        <option name="FOREGROUND" value="2fa6" deuteranopia="428C" protanopia="428C"/>
       </value>
     </option>
     <option name="XPATH.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="174ad4" />
+        <option name="FOREGROUND" value="174ad4" deuteranopia="121314" protanopia="121314"/>
       </value>
     </option>
   </attributes>
