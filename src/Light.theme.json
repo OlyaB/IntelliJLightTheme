@@ -1,44 +1,65 @@
 {
-  "name": "IntelliJ Light Preview",
+  "name": "IntelliJ Light",
   "dark": false,
-  "author": "",
-  "editorScheme": "/Light.xml",
+  "author": "JetBrains",
+  "editorScheme": "/themes/Light.xml",
+
+  "colors": {
+    "foreground": "#000000",
+    "infoPanelForeground": "#808080",
+    "infoInputForeground": "#999999",
+    "disabledForeground": "#8C8C8C",
+    "selectionForeground": "#FFFFFF",
+    "linkForeground": "#2470B3",
+
+    "border": "#D1D1D1",
+    "componentBorder": "#C4C4C4",
+    "lightBorder": "#d9d9d9",
+    "windowsPopupBorder": "#adadad",
+
+    "panel": "#F2F2F2"
+  },
 
   "ui": {
     "*": {
+      "foreground": "foreground",
+      "acceleratorForeground": "foreground",
+      "caretForeground": "foreground",
+      "selectedForeground": "foreground",
+      "selectionInactiveForeground": "foreground",
+
       "selectionBackground":  "#2675BF",
       "selectionBackgroundInactive": "#D5D5D5",
       "selectionInactiveBackground": "#D5D5D5",
 
-      "disabledForeground": "#8C8C8C",
-      "disabledText": "#8C8C8C",
-      "inactiveForeground": "#8C8C8C",
+      "disabledForeground": "disabledForeground",
+      "disabledText": "disabledForeground",
+      "inactiveForeground": "disabledForeground",
 
-      "infoForeground": "#808080",
       "modifiedItemForeground": "#005ad9",
 
-      "acceleratorSelectionForeground": "#FFFFFF",
+      "acceleratorSelectionForeground": "selectionForeground",
 
-      "separatorColor": "#d1d1d1",
-      "separatorForeground": "#999999"
+      "separatorColor": "border",
+      "separatorForeground": "infoInputForeground"
     },
 
     "Borders": {
-      "color": "#D1D1D1",
-      "ContrastBorderColor": "#D1D1D1"
+      "color": "border",
+      "ContrastBorderColor": "border"
     },
 
     "Button": {
-      "shadowColor": "#A6A6A620",
-      "startBorderColor": "#C4C4C4",
-      "endBorderColor": "#C4C4C4",
+      "shadowColor": "#A6A6A600",
+      "startBorderColor": "componentBorder",
+      "endBorderColor": "componentBorder",
       "default": {
-        "foreground": "#FFFFFF",
+        "foreground": "selectionForeground",
         "startBackground": "#528CC7",
         "endBackground": "#4989CC",
         "startBorderColor": "#487EB8",
         "endBorderColor": "#346DAD",
-        "shadowColor": "#A6A6A650",
+        "shadowColor": "#A6A6A600",
         "focusedBorderColor": "#A9C9F5"
       }
     },
@@ -56,9 +77,12 @@
       "selectionInactiveBackground": "#e0e0e0"
     },
 
-    "Component.borderColor": "#C4C4C4",
+    "Component": {
+      "borderColor": "componentBorder",
+      "infoForeground": "infoInputForeground"
+    },
 
-    "DefaultTabs.background": "#F2F2F2",
+    "DefaultTabs.background": "panel",
 
     "EditorTabs.underlinedTabBackground": "#ffffff",
 
@@ -68,30 +92,33 @@
       "shortcutForeground": "#4274A6"
     },
 
-    "Label.errorForeground": "#C7222D",
+    "Label": {
+      "errorForeground": "#C7222D",
+      "infoForeground": "infoPanelForeground"
+    },
 
     "Link": {
-      "activeForeground": "#2470B3",
-      "hoverForeground": "#2470B3",
-      "pressedForeground": "#2470B3",
-      "visitedForeground": "#2470B3",
+      "activeForeground": "linkForeground",
+      "hoverForeground": "linkForeground",
+      "pressedForeground": "linkForeground",
+      "visitedForeground": "linkForeground",
       "secondaryForeground": "#77a8d9"
     },
 
     "Notification": {
-      "borderColor": "#D1D1D1"
+      "borderColor": "border"
     },
 
-    "Menu.borderColor": "#d9d9d9",
+    "Menu.borderColor": "lightBorder",
 
-    "Panel.background": "#F2F2F2",
+    "Panel.background": "panel",
 
     "PasswordField.background": "#FFFFFF",
 
     "Popup": {
-      "separatorColor": "#d9d9d9",
-      "Advertiser.borderColor": "#D1D1D1",
-      "borderColor": "#adadad"
+      "separatorColor": "lightBorder",
+      "Advertiser.borderColor": "border",
+      "borderColor": "windowsPopupBorder"
     },
 
     "ProgressBar": {
@@ -101,15 +128,14 @@
       "indeterminateEndColor": "#1E82E6"
     },
 
-    "StatusBar.borderColor": "#D1D1D1",
+    "StatusBar.borderColor": "border",
 
-    "ToolWindow.Header.inactiveBackground": "#F2F2F2",
+    "ToolWindow.Header.inactiveBackground": "panel",
 
     "Tree.rowHeight": 20
   },
 
   "icons": {
-
     "ColorPalette": {
       "Checkbox.Border.Default": "#b0b0b0",
       "Checkbox.Background.Selected": "#4F9EE3",
